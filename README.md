@@ -6,6 +6,17 @@ This project involves an in-depth analysis of the Forest Fires dataset. The data
 
 The Forest Fires dataset is available from the UCI Machine Learning Repository. It includes attributes like temperature, wind, rain, and the area affected by fires.
 
+## Libraries Used
+Pandas: For data manipulation and analysis.
+
+NumPy: For numerical computations.
+
+Matplotlib: For creating static, animated, and interactive visualizations.
+
+Seaborn: For statistical data visualization.
+
+Scipy: For scientific and technical computing, including statistical tests.
+
 ## Visualizations
 
 ### Pairplot
