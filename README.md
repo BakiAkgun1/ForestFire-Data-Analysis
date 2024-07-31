@@ -9,8 +9,6 @@ The Forest Fires dataset is available from the UCI Machine Learning Repository. 
 ## Libraries Used
 Pandas: For data manipulation and analysis.
 
-NumPy: For numerical computations.
-
 Matplotlib: For creating static, animated, and interactive visualizations.
 
 Seaborn: For statistical data visualization.
