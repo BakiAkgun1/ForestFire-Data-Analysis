@@ -1,7 +1,3 @@
-Tabii! İşte sağladığınız görselleştirmeler ve test sonuçlarını içeren bir README dosyası taslağı:
-
----
-
 # Forest Fires Dataset Analysis
 
 This project involves an in-depth analysis of the Forest Fires dataset. The dataset includes various features related to forest fire occurrences, such as temperature, wind, rain, and area burned. The analysis includes statistical tests to determine the relationships between these features and visualizations to illustrate these relationships.
@@ -14,41 +10,27 @@ The Forest Fires dataset is available from the UCI Machine Learning Repository. 
 
 ### Pairplot
 A pairplot was generated to visualize the relationships between `temp`, `wind`, `rain`, and `area`.
+![image](https://github.com/user-attachments/assets/88caba93-e219-4dc2-85ff-ff404c65e5ee)
 
-```python
-sns.pairplot(fire[['temp','wind','rain','area']])
-```
 
 ### Boxplot
 A boxplot was created to show the distribution of the `area` affected by fires with respect to the `wind` variable.
-
-```python
-plt.figure(figsize=(10,8))
-sns.boxplot(x='wind', y='area', data= fire)
-```
+![image](https://github.com/user-attachments/assets/7a949355-5c9b-45e1-a905-73f7fdb11d74)
 
 ### Lineplot
 A lineplot was created to visualize the relationship between `rain` and `temp`.
-
-```python
-plt.figure(figsize=(10, 6))
-sns.lineplot(x='rain', y='temp', data=fire)
-```
+![image](https://github.com/user-attachments/assets/311cf3eb-0b07-41b2-bebb-f8963273c51e)
 
 ### Correlation Matrix
 A correlation matrix was generated to explore the relationships between the numerical features, excluding `month` and `day`.
 
-```python
-corr_matrix= fire.drop(columns=['month','day','X','Y']).corr()
-```
+![image](https://github.com/user-attachments/assets/2027dd30-b0a3-4aac-af8b-70deb0ab2c4d)
+
 
 ### Histogram
 A histogram was created to visualize the distribution of the `temp` variable.
+![image](https://github.com/user-attachments/assets/ec3941ab-c9ad-4b54-92a7-ef5c68eb5688)
 
-```python
-plt.figure(figsize = (10,6))
-plt.hist(fire['temp'], bins=20, edgecolor= 'k')
-```
 
 ## Statistical Tests
 
